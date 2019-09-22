@@ -279,7 +279,7 @@
   <link name="j2n6s200_link_6">
     <visual>
       <geometry>
-        <mesh filename="package://ada_description/meshes/hand_2finger.dae"/>
+        <mesh filename="package://ada_description/meshes/collision_hand_2finger.dae"/>
       </geometry>
       <material name="carbon_fiber">
         <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
@@ -352,7 +352,8 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://ada_description/meshes/collision_finger_proximal.dae"/>
+<!--        <mesh filename="package://ada_description/meshes/collision_finger_proximal.dae"/>-->
+        <mesh filename="package://ada_description/meshes/finger.dae"/>
       </geometry>
     </collision>
     <inertial>
@@ -416,7 +417,8 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://ada_description/meshes/collision_finger_proximal.dae"/>
+<!--        <mesh filename="package://ada_description/meshes/collision_finger_proximal.dae"/>-->
+        <mesh filename="package://ada_description/meshes/finger.dae"/>
       </geometry>
     </collision>
     <inertial>
